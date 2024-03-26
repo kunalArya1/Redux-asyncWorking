@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const TodoReducers = createSlice({
-  name: todos,
+  name: "todos",
   initialState: {
     todos: null,
     isAuth: false,
